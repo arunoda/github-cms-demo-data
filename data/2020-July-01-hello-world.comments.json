@@ -22,5 +22,13 @@
     "avatar": "https://avatars1.githubusercontent.com/u/50838?v=4",
     "content": "This is a comment made from the production version.",
     "createdAt": 1593756386232
+  },
+  {
+    "id": "OhG5WoC_mFp1TfqKLQdVMOCIpo99et",
+    "ownerId": 50838,
+    "name": "Arunoda Susiripala",
+    "avatar": "https://avatars1.githubusercontent.com/u/50838?v=4",
+    "content": "Hello comments from the video.",
+    "createdAt": 1593756793647
   }
 ]
