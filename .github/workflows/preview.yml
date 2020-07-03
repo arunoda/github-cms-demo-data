@@ -28,4 +28,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
         description: "Previw the changed blog post"
-        target_url: https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=$GITHUB_SHA
+        entryPoint: https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=$GITHUB_SHA
