@@ -24,6 +24,6 @@ jobs:
         SHA: ${GITHUB_SHA}
       with:
         status: "success"
-        url: https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=$SHA
-        description: "preview these changes"
+        url: "https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=$SHA"
+        description: "to preview click 'Details'"
         name: "Preview"
