@@ -14,5 +14,13 @@
     "avatar": "https://avatars1.githubusercontent.com/u/50838?v=4",
     "content": "Wow. Optimistic UI is awesome.",
     "createdAt": 1593755965527
+  },
+  {
+    "id": "CR6bSkwKpTIjGBPObpesFhV1zQKbKR",
+    "ownerId": 50838,
+    "name": "Arunoda Susiripala",
+    "avatar": "https://avatars1.githubusercontent.com/u/50838?v=4",
+    "content": "This is a comment made from the production version.",
+    "createdAt": 1593756386232
   }
 ]
