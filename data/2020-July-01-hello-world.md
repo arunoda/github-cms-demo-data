@@ -1,11 +1,11 @@
 ![](https://media0.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif)
 
 
-This is the first blog post from the GitHub CMS. 😍 
+This is the first blog post from the GitHub CMS. 🚀 
 
 What? GitHub CMS 🤔
 
-Actually, there's no such thing. But we use GitHub as a data source.
+_Actually, there's no such thing. But we use GitHub as a data source._
 
 ### How?
 
