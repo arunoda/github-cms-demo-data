@@ -20,10 +20,8 @@ jobs:
     - uses: actions/checkout@v2
       
     - uses: ouzi-dev/commit-status-updater@v1.0.4
-      env:
-        SHA: ${GITHUB_SHA}
       with:
         status: "success"
-        url: "https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=${{SHA}}"
+        url: "https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=${{env.GITHUB_SHA}}"
         description: "to preview click 'Details'"
         name: "Preview"
