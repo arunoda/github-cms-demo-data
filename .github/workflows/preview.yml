@@ -23,10 +23,8 @@ jobs:
       run: "echo XXXX${GITHUB_SHA}"
       
     - uses: ouzi-dev/commit-status-updater@v1.0.4
-      env:
-        URL: "https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=${GITHUB_SHA}"
       with:
         status: "success"
-        url: ${URL}
+        url: "https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=${{github.sha}}"
         description: "to preview click 'Details'"
         name: "Preview"
