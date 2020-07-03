@@ -18,20 +18,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    
-    - uses: chrnorm/deployment-action@releases/v1
-      name: Create GitHub deployment
-      id: deployment
+      
+    - uses: ouzi-dev/commit-status-updater@v1.0.4
       with:
-        token: "${{ github.token }}"
-        target_url: https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=$GITHUB_SHA
-        environment: production
-
-    - name: Update deployment status (success)
-      if: success()
-      uses: chrnorm/deployment-status@releases/v1
-      with:
-        token: "${{ github.token }}"
-        target_url: http://my-app-url.com
-        state: "success"
-        deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+        status: "success"
+        url: https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=$GITHUB_SHA
+        description: "preview these changes"
+        name: "Preview"
