@@ -23,7 +23,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: update deploy status
       if: always()
-      uses: unacast/actions-github-deployment-status
+      uses: unacast/actions-github-deployment-status@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
