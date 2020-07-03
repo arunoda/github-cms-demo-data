@@ -19,12 +19,9 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       
-    - name: echo
-      run: "echo XXXX${GITHUB_SHA}"
-      
     - uses: ouzi-dev/commit-status-updater@v1.0.4
       with:
         status: "success"
         url: "https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=${{github.sha}}"
         description: "to preview click 'Details'"
-        name: "Preview"
+        name: "My Blog"
