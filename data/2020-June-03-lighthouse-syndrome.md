@@ -7,3 +7,5 @@ So, I want to understand whether it's a good idea to optimize our apps for Light
 [![](https://img.youtube.com/vi/i0cCXZlUeCw/maxresdefault.jpg)](https://www.youtube.com/watch?v=i0cCXZlUeCw&t=1s)
 
 Read more: [Lighthouse Syndrome](https://arunoda.me/blog/lighthouse-syndrome)
+
+<Youtube videoId="i0cCXZlUeCw" />
