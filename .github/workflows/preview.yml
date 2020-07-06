@@ -22,6 +22,6 @@ jobs:
     - uses: ouzi-dev/commit-status-updater@v1.0.4
       with:
         status: "success"
-        url: "https://nextjs-blog-with-github-cms.vercel.app/api/preview?sha=${{github.sha}}"
+        url: "https://github-cms-demo.vercel.app/api/preview?sha=${{github.sha}}"
         description: "to preview click 'Details'"
         name: "My Blog"
