@@ -1,3 +1,5 @@
+😍😍😍😍😍😍😍😍
+
 Lighthouse is a tool that comes with Chrome, which we often use to analyze a website for performance, SEO, best practices, etc. 
 
 Recently, I discover a trend among developers who want to get the top score for their websites. Or they expect websites to have a 100% score.
