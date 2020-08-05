@@ -134,5 +134,13 @@
     "avatar": "https://api.adorable.io/avatars/128/hello-user.png",
     "content": "sdfsdf\n",
     "createdAt": 1595928964824
+  },
+  {
+    "id": "o_ehLztic90MgG8abgpvuBIXN0wuR0",
+    "ownerId": 54409,
+    "name": "Kris Haamer",
+    "avatar": "https://avatars1.githubusercontent.com/u/54409?v=4",
+    "content": "Let's see how this works :)",
+    "createdAt": 1596637965939
   }
 ]
